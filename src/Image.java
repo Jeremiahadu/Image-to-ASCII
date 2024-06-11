@@ -8,7 +8,7 @@ public class Image {
 
     public static void main(String[] args) {
         try {
-            BufferedImage image = ImageIO.read(new File("C:\\Users\\jerem\\IdeaProjects\\Image to Ascii\\src\\cowboy bepop...jpg"));
+            BufferedImage image = ImageIO.read(new File("C:\\Users\\jerem\\IdeaProjects\\Image to Ascii\\src\\mona lisa.jpg"));
 
             int newWidth = 800;
             int newHeight = (int) Math.round((double)newWidth/image.getWidth() * image.getHeight());
